@@ -11,7 +11,7 @@ const { PORT } = require("./config");
 const app = express();
 
 // Middleware setup
-app.use(cors(corsConfig));
+app.use(cors());
 app.use(helmet());
 app.use(limiterConfig);
 app.use(express.json());
