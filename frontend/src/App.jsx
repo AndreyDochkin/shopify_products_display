@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <div className="app">
-        <h1 className='app-title'>Build a Team</h1>
+        <h1 className='app-title'>Andrei Dochkin Project</h1>
         <Grid />
       </div>
     </Provider>
