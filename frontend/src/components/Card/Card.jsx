@@ -10,7 +10,7 @@ const Card = ({ product }) => {
     <div className="product-card">
       {/* <img className="product-image" src={product.imageUrl} alt="" /> */}
       <Canvas src={product.imageUrl} className="product-image" alt="" />
-      <div className="product-info">
+      <div className="product-title">
         <p dangerouslySetInnerHTML={{ __html: productName }}></p>
       </div>
     </div>
