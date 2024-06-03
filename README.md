@@ -13,7 +13,7 @@ Follow these steps to get the application up and running on your local machine:
 1. **Clone the repository:**
 
  ```bash
- git clone https://github.com/AndreyDochkin/buildateam_test.git
+ git clone https://github.com/AndreyDochkin/shopify_products_display.git
  ```
 2. **Start backend**
 ```bash
